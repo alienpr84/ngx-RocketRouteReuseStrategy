@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "tax":7,
+        "price":20000,
+        "owner":"Maria",
+        "location":"Miami Beach"
+    },
+    {
+        "id":2,
+        "tax":5,
+        "price":30000,
+        "owner":"Luisa",
+        "location":"Doral"
+    },
+    {
+        "id":3,
+        "tax":10,
+        "price":56000,
+        "owner":"Yelena",
+        "location":"Texas"
+    },
+    {
+        "id":4,
+        "tax":2,
+        "price":40000,
+        "owner":"Ricardo",
+        "location":"Virginia"
+    },
+    {
+        "id":5,
+        "tax":3,
+        "price":45000,
+        "owner":"Richard",
+        "location":"Louisiana"
+    }
+]

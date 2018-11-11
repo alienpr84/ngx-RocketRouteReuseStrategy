@@ -1,0 +1,25 @@
+<div class="card bg-light mb-3" style="max-width: 18rem; margin: 0 auto;">
+    <div class="card-header">Datas of House</div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-6 title">Id:</div>
+        <div class="col-6">{{house?.id}}</div>
+      </div>
+      <div class="row">
+        <div class="col-6 title">Owner:</div>
+        <div class="col-6">{{house?.owner}}</div>
+      </div>
+      <div class="row">
+        <div class="col-6 title">Price:</div>
+        <div class="col-6">${{house?.price}}</div>
+      </div>
+      <div class="row">
+          <div class="col-6 title">Tax:</div>
+          <div class="col-6">{{house?.tax}}%</div>
+        </div>
+      <div class="row">
+        <div class="col-6 title">Price with tax:</div>
+        <div class="col-6">${{house?.calculateTaxes()}}</div>
+      </div>
+    </div>
+  </div>

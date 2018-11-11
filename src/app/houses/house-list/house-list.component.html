@@ -1,0 +1,11 @@
+
+<div class="card text-white bg-info mb-3" style="max-width: 35rem; margin: 0 auto;">
+    <div class="card-header">Houses' List</div>
+    <div class="card-body">
+        <ul>
+          <li *ngFor="let house of houses">
+            {{house?.owner}}'s House, Price: ${{house?.price}}, Price with taxes: {{house?.calculateTaxes()}}.
+          </li>
+        </ul>
+    </div>
+  </div>
